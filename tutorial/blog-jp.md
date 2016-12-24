@@ -1,6 +1,7 @@
 #Realm Node.jsとExpress.jsでブログを作成
 
 投稿者：Leonardo YongUk Kim <lk@realm.io>
+
 翻訳者: Makoto Yamazaki <my@realm.io>
 
 11月16日に[Realm Node.js版がリリース](https://realm.io/jp/news/first-object-database-realm-node-js-server/)されました。Realmの強力な機能をサーバーサイドで使用できるようになります。Node.jsでRealmを活用する方法を示すために、簡単なブログを作成してみましょう。
