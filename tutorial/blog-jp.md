@@ -1,4 +1,4 @@
-#Realm Node.jsとExpress.jsでブログを作成
+#Realm Node.jsとExpressでブログを作成
 
 投稿者：Leonardo YongUk Kim <lk@realm.io>
 
@@ -37,7 +37,7 @@ author:
 license: (ISC)
 ```
 
-Webのリクエストを処理するためにExpress.js、データベースにRealm Node.js、テンプレート処理のためにEmbedded JavaScript(EJS)、フォームから渡されたクエリを処理するためにbody-parserを使用します。
+Webのリクエストを処理するためにExpress、データベースにRealm Node.js、テンプレート処理のためにEmbedded JavaScript(EJS)、フォームから渡されたクエリを処理するためにbody-parserを使用します。
 
 ```
 npm install --save express

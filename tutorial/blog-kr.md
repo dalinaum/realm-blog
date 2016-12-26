@@ -1,4 +1,4 @@
-# Realm Node.js와 Express.js로 블로그 만들기
+# Realm Node.js와 Express로 블로그 만들기
 
 작성자: Leonardo YongUk Kim<lk@realm.io>
 
@@ -35,7 +35,7 @@ license: (ISC)
 
 이후 물어보는 항목은 적절히 채웠습니다. `name` 항목은 디렉토리 명으로 지정되는데 그대로 두었고 버전은 `1.0.0`으로 하기에 민망한 수준이기 때문에 `0.1.0`으로 바꾸었습니다. 다른 항목들은 다 기본 값으로 설정하였습니다.
 
-웹 요청을 처리하기 위해 Express.js, 데이터베이스를 위해 Realm Node.js, 템플릿 처리를 위해 Embedded JavaScript(EJS), 폼으로 전달된 쿼리를 처리하기 위해 body-parser를 사용합니다.
+웹 요청을 처리하기 위해 Express, 데이터베이스를 위해 Realm Node.js, 템플릿 처리를 위해 Embedded JavaScript(EJS), 폼으로 전달된 쿼리를 처리하기 위해 body-parser를 사용합니다.
 
 ```
 npm install --save express
