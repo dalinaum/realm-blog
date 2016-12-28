@@ -2,9 +2,9 @@
 
 Author: Leonardo YongUk Kim <lk@realm.io>
 
-[Realm Node.js was released on November 16](https://realm.io/news/first-object-database-realm-node-js-server/) Realm's powerful features are available on the server side with Node.js now. In order to demonstrate how to use Realm, let's build a simple blog.
+[Realm Node.js was released on November 16th](https://realm.io/news/first-object-database-realm-node-js-server/) Realm's powerful features are available for the server side with Node.js now. In order to demonstrate how to use Realm, let's build a simple blog.
 
-This tutorial assumes you already use macOS or Linux environment to use the shell environment, and Node.js and `npm` are also installed. If they are not installed yet, please see [https://nodejs.org/en/] to install them.
+This tutorial assumes you already use macOS or Linux environment to use the shell environment, and Node.js and `npm` are also installed. If they are not installed yet, please see [here](https://nodejs.org/en/) to install them.
 
 ## Setting the default environment
 
@@ -46,7 +46,7 @@ npm install --save body-parser
 
 Next, install Nodemon so that the server will restart whenever you modify the code.
 
-In order to run the server using Nodemon now, you can use the `node_modules/nodemon/bin/nodemon.js index.js` command. Because it is  bit cumbersome, we will make a short form command to run.
+In order to run the server using Nodemon now, you can use the `node_modules/nodemon/bin/nodemon.js index.js` command. Because it is a bit cumbersome, we will make a short form command to run.
 
 
 ```
@@ -216,10 +216,10 @@ app.get('/', function(req, res) {
 });
 ```
 
-In order to use Embedded Javascript(EJS) template engine, we use the method `app.set`. The entire blog `Post`s are in reverse order, since the second parameter of the `sorted` method is set as `reverse`. This sort order is because blog usually in reverse order.
+In order to use Embedded Javascript(EJS) template engine, we use the method `app.set`. The entire blog `Post`s are in reverse order, since the second parameter of the `sorted` method is set as `reverse`. This sort order is because blogs are usually in reverse order.
 
-Now, update everything, and then click `Write`. You can see the following screen.
+Now, update everything, and then click `Write` and write your first post. You can see the following screen.
 
-![](complete.png)
+![](complete-en.png)
 
-For the complete example, please see [here](https://github.com/dalinaum/realm-blog).
+For the complete example, please check out the code here: [here](https://github.com/dalinaum/realm-blog).
