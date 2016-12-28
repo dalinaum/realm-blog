@@ -2,9 +2,9 @@
 
 작성자: Leonardo YongUk Kim<lk@realm.io>
 
-[Realm의 Node.js 버전이 11월 16일에 출시](https://realm.io/jp/news/first-object-database-realm-node-js-server/)되었습니다. Realm의 강력한 기능을 이제 서버 사이드에서 Node.js로 사용할 수 있게 되었습니다. Node.js에서 Realm을 활용하는 법을 보여주기 위해 간단한 블로그를 만들어 보겠습니다.
+[Realm의 Node.js 버전이 11월 16일에 출시](https://realm.io/kr/news/first-object-database-realm-node-js-server/)되었습니다. Realm의 강력한 기능을 이제 서버 사이드에서 Node.js로 사용할 수 있게 되었습니다. Node.js에서 Realm을 활용하는 법을 보여주기 위해 간단한 블로그를 만들어 보겠습니다.
 
-이 튜토리얼은 사용자가 쉘 환경을 사용할 수 있는 macOS나 리눅스 환경을 사용할 수 있다고 가정하고 있고 Node.js와 `npm`이 설치되어 있다고 가정하고 있습니다. 설치되어 있지 않다면 [Node.js 사이트](https://nodejs.org/ja/)를 참고하여 설치하세요.
+이 튜토리얼은 사용자가 쉘 환경을 사용할 수 있는 macOS나 리눅스 환경을 사용할 수 있다고 가정하고 있고 Node.js와 `npm`이 설치되어 있다고 가정하고 있습니다. 설치되어 있지 않다면 [Node.js 사이트](https://nodejs.org/ko/)를 참고하여 설치하세요.
 
 ## 기본 환경 설정하기
 
